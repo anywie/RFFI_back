@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medis",
+  "info": {
+    "name": "Medis"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
