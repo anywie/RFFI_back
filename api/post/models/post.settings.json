@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contents": {
+      "via": "post",
+      "collection": "content"
+    },
+    "isDeleted": {
+      "type": "boolean"
+    },
+    "pages": {
+      "via": "posts",
+      "collection": "page"
+    }
+  }
+}
