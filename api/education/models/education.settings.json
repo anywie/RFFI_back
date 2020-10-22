@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "education",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "universityName": {
+      "type": "richtext"
+    },
+    "author": {
+      "model": "authors",
+      "via": "educations"
+    }
+  }
+}

@@ -29,8 +29,15 @@
       "type": "string"
     },
     "contents": {
+      "collection": "content",
+      "via": "author"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "educations": {
       "via": "author",
-      "collection": "content"
+      "collection": "education"
     }
   }
 }
