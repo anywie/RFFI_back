@@ -35,9 +35,8 @@
     "description": {
       "type": "richtext"
     },
-    "educations": {
-      "via": "author",
-      "collection": "education"
+    "education": {
+      "type": "richtext"
     }
   }
 }
