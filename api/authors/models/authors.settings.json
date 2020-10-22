@@ -37,6 +37,10 @@
     },
     "education": {
       "type": "richtext"
+    },
+    "all_contents": {
+      "via": "author",
+      "collection": "all-content"
     }
   }
 }
