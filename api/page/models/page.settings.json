@@ -15,8 +15,8 @@
       "type": "string"
     },
     "contents": {
-      "collection": "content",
-      "via": "page"
+      "via": "page",
+      "collection": "content"
     },
     "posts": {
       "collection": "post",
