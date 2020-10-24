@@ -32,9 +32,10 @@
       "model": "post",
       "via": "contents"
     },
-    "author": {
-      "model": "authors",
-      "via": "contents"
+    "authors": {
+      "collection": "authors",
+      "via": "contents",
+      "dominant": true
     },
     "page": {
       "model": "page",
@@ -50,6 +51,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "withAuthors": {
+      "type": "boolean"
+    },
+    "enValue": {
+      "type": "richtext"
     }
   }
 }

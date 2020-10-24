@@ -11,11 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "link": {
+    "url": {
       "type": "string"
     },
     "title": {
       "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

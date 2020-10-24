@@ -28,19 +28,15 @@
     "authorName": {
       "type": "string"
     },
-    "contents": {
-      "via": "author",
-      "collection": "content"
-    },
     "description": {
       "type": "richtext"
     },
     "education": {
       "type": "richtext"
     },
-    "all_contents": {
-      "via": "author",
-      "collection": "all-content"
+    "contents": {
+      "via": "authors",
+      "collection": "content"
     }
   }
 }
