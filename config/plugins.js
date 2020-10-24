@@ -8,7 +8,9 @@ module.exports = ({ env }) => ({
       ),
       region: "us-west-1",
       params: {
-        Bucket: "myystrapi",
+        Bucket:  env(
+        "AWS_BUCKET"
+      ),
       },
     },
   },
