@@ -11,10 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "contents": {
-      "via": "post",
-      "collection": "content"
-    },
     "isDeleted": {
       "type": "boolean"
     },
