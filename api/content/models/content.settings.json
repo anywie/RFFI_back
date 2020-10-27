@@ -53,8 +53,9 @@
     "enValue": {
       "type": "richtext"
     },
-    "youtubeShortUrl": {
-      "type": "string"
+    "medis": {
+      "collection": "medis",
+      "via": "content"
     }
   }
 }
