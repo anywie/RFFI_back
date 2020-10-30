@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
       secretAccessKey: env("AWS_ACCESS_SECRET"),
       region: "us-west-1",
       params: {
-        Bucket: "myystrapi",
+        Bucket: env("S3_BUCKET"),
       },
     },
   },
